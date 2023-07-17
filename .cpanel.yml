@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/assh1849/public_html/abyasa
+    - /bin/cp -R dist $DEPLOYPATH
